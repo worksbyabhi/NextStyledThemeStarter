@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
 
-## Getting Started
+NextStyledThemeStarter is designed to help developers start new Next.js projects quickly with a predefined theme configuration. It includes essential tools and configurations to enhance development efficiency and maintain a consistent design system.
 
-First, run the development server:
+## Benefits
 
-```bash
+- Consistency: Maintain a uniform look and feel across all projects with a shared theme and design system.
+- Efficiency: Quickly spin up new projects without repetitive setup tasks.
+- Scalability: Easily extend and modify the theme as your project grows.
+- Maintainability: Centralized style management makes updates and maintenance straightforward.
+
+## Features
+
+- Next.js: The powerful React framework for production-ready applications.
+- Styled Components: Utilizes tagged template literals for styling your application.
+- Custom StyledTheme: Pre-configured theme for colors, grids, and typography.
+- Global Styles: Includes global style setup for consistent base styling.
+- Grid: Easily create responsive layouts with the built-in grid system.
+
+## Running the Development Server
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build Command
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm run build
+```
 
-## Learn More
+This boilerplate generates the static export into the out folder.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How to Contribute
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on GitHub. To contribute code, follow these steps:
 
-## Deploy on Vercel
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add some feature').
+5. Push to the branch (git push origin feature/your-feature).
+6. Open a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Code of Conduct
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We adhere to the Contributor Covenant Code of Conduct. By participating, you are expected to uphold this code.
