@@ -1,4 +1,5 @@
 import { AnchorHTMLAttributes, HTMLAttributes, ReactNode } from "react";
+import { WebTarget } from "styled-components";
 
 export enum LinkVariant {
   Primary = "Primary",
@@ -13,5 +14,6 @@ export interface StyledLinkAnchorProps
 }
 
 export interface LinkAnchorProps extends StyledLinkAnchorProps {
+  as?: void | WebTarget | undefined;
   children: ReactNode;
 }

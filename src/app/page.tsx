@@ -7,6 +7,7 @@ import { LinkAnchor } from "@/designSystem/link";
 import { DemoGridColumn, ReverseGridColumn } from "./styled";
 import { LinkVariant } from "@/designSystem/link/types";
 import { Placeholder } from "@/designSystem/placeholder";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,6 +15,15 @@ export default function Home() {
       <Placeholder />
       <GridColumn style={{ alignItems: "center" }}>
         <h1>Next with Styled-Component</h1>
+        {process.env.NODE_ENV === "development" ? (
+          <LinkAnchor
+            href="https://worksbyabhi.com/NextStyledThemeStarter"
+            as={Link}
+            target="_blank"
+          >
+            Online documentation
+          </LinkAnchor>
+        ) : null}
       </GridColumn>
       <GridColumn>
         <h2>Grid</h2>
