@@ -2,8 +2,8 @@ import { DefaultTheme } from "styled-components";
 
 export const theme: DefaultTheme = {
   colors: {
-    primary: "#22244a",
-    secondary: "#5728a3",
+    primary: "#5728a3",
+    secondary: "#22244a",
     tertiary: "#f0a500",
     background: "#f9f9f9",
     textPrimary: "#2d2d2d",
@@ -15,19 +15,20 @@ export const theme: DefaultTheme = {
   },
   grid: {
     small: {
-      margin: 32,
+      margin: 16,
       gutter: 16,
       columns: 6,
     },
     medium: {
       margin: 24,
-      gutter: 16,
+      gutter: 20,
       columns: 12,
     },
     large: {
-      margin: 16,
-      gutter: 16,
+      margin: 32,
+      gutter: 24,
       columns: 12,
+      maxWidth: 1200,
     },
   },
   breakpoints: {

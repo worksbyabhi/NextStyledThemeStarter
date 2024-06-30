@@ -48,4 +48,8 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 ## Code of Conduct
 
-We adhere to the Contributor Covenant Code of Conduct. By participating, you are expected to uphold this code.
+Please note that this project adheres to a [Code of Conduct](https://github.com/worksbyabhi/NextStyledThemeStarter/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/worksbyabhi/NextStyledThemeStarter/blob/main/LICENSE) file for details.

@@ -38,7 +38,7 @@ declare module "styled-components" {
         margin: number;
         gutter: number;
         columns: number;
-        width?: number;
+        maxWidth?: number;
       };
     };
     breakpoints: {

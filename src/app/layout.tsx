@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.scss";
 import ThemeWrapper from "@/designSystem/theme/ThemeWrapper";
 import StyledComponentsRegistry from "@/designSystem/theme/StyledComponentRegistry";
+import { GridContainer } from "@/designSystem/grid";
 
 export const metadata: Metadata = {
   title: "NextStyledThemeStarter",
@@ -18,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <StyledComponentsRegistry>
-          <ThemeWrapper>{children}</ThemeWrapper>
+          <ThemeWrapper>
+            <GridContainer $isRootParent>{children}</GridContainer>
+          </ThemeWrapper>
         </StyledComponentsRegistry>
       </body>
     </html>
